@@ -1,6 +1,5 @@
 **Database Name: librarygh**
 
-**Developed by Adnan Ansari**
 
 **Recommended PHP Version 5.6.3**
 
@@ -13,5 +12,5 @@ Librarian's Account in order to continue!
 
 **Login Details - Librarian**
 
-Username: harry
+Username: admin
 Password: librarian
