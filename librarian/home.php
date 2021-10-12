@@ -14,12 +14,17 @@ require "header_librarian.php";
 <body>
 	<div id="allTheThings">
 
+		<!--
 		<a href="insert_book.php">
 			<input type="button" value="Insert New Book Record" />
 		</a><br />
 
 		<a href="update_copies.php">
 			<input type="button" value="Update Copies of a Book" />
+		</a><br />
+
+		<a href="update_prize.php">
+			<input type="button" value="Update Price of a Book" />
 		</a><br />
 
 		<a href="delete_book.php">
@@ -49,6 +54,19 @@ require "header_librarian.php";
 		<a href="update_balance.php">
 			<input type="button" value="Update Balance of Members" />
 		</a><br />
+
+		!-->
+
+
+
+		<a href="for_books.php">
+			<input type="button" value="Books" style="padding-top: 50px; padding-bottom:50px; font-size: xx-large;;" />
+		</a><br />
+
+		<a href="for_members.php">
+			<input type="button" value="Members" style="padding-top: 50px; padding-bottom:50px; font-size: xx-large;;" />
+		</a><br />
+
 
 		<a href="due_handler.php">
 			<input type="button" value="Today's Reminder" />

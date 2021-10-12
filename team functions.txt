@@ -1,21 +1,28 @@
 Arjuna 	- insert_book.php
-	- display_book.php
 	- delete_book.php
 	- message_display.php
-	- update_balance.php
 	- home.php(librarian)
 	- dltbook.php
+	- forgot_request.php
+	- dlt_ps_req.php
+	- pending_ps_reset.php
+	- update_password.php
+	
 	
 
 Thilina - register.php
 	- pending_registrations.php
 	- update_balance.php
 	- verify_member.php
+	- display_members.php
 
 Amandi	- home.php (member)
 	- pending_book_requests.php
 	- my_books.php
 	- due_handler.php
+	- display_book.php
+	- update_copies.php
+	- update_prize.php	
 
 
 
