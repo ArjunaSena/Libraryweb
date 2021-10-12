@@ -1,0 +1,25 @@
+Arjuna 	- insert_book.php
+	- display_book.php
+	- delete_book.php
+	- message_display.php
+	- update_balance.php
+	- home.php(librarian)
+	- dltbook.php
+	
+
+Thilina - register.php
+	- pending_registrations.php
+	- update_balance.php
+	- verify_member.php
+
+Amandi	- home.php (member)
+	- pending_book_requests.php
+	- my_books.php
+	- due_handler.php
+
+
+
+Roshen	- index.php (mainn,member ,librarian)
+	- verify_librarian.php 
+	- db_connect.php
+	- librarygh.sql
