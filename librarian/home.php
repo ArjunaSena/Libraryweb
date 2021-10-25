@@ -67,11 +67,11 @@ require "header_librarian.php";
 			<input type="button" value="Members" style="padding-top: 50px; padding-bottom:50px; font-size: xx-large;;" />
 		</a><br />
 
-
+		<!--
 		<a href="due_handler.php">
 			<input type="button" value="Today's Reminder" />
 		</a><br /><br />
-
+!-->
 	</div>
 </body>
 
