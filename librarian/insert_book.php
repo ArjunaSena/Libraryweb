@@ -7,11 +7,54 @@ require "header_librarian.php";
 
 <html>
 
+
+<!----remeber to add js to validations!-->
+
+
+
+
 <head>
 	<title>LMS</title>
 	<link rel="stylesheet" type="text/css" href="../css/global_styles.css" />
 	<link rel="stylesheet" type="text/css" href="../css/form_styles.css" />
 	<link rel="stylesheet" href="css/insert_book_style.css">
+
+
+	<script>
+		function price() {
+
+			var rs = document.getElementById("b_price").value;
+
+			if (rs < 0) {
+				alert("Add proper book price");
+				return false;
+
+			}
+			return true;
+
+		}
+
+		function all() {
+
+			if (price()) {
+
+
+
+
+			} else {
+
+
+
+				event.preventDefault();
+			}
+
+
+
+		}
+	</script>
+
+
+
 </head>
 
 <body>
@@ -85,7 +128,7 @@ require "header_librarian.php";
 		</div>
 
 		<div class="icon">
-			<input class="b-price" type="number" name="b_price" placeholder="Price" required />
+			<input class="b-price" type="number" id="b_price" name="b_price" placeholder="Price" required />
 		</div>
 
 		<div class="icon">
@@ -93,7 +136,7 @@ require "header_librarian.php";
 		</div>
 
 		<br />
-		<input class="b-isbn" type="submit" name="b_add" value="Add book" />
+		<input class="b-isbn" type="submit" name="b_add" value="Add book" onclick="price()" />
 	</form>
 
 	<body>
