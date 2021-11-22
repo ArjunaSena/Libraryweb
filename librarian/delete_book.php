@@ -17,6 +17,11 @@ require "header_librarian.php";
 
 <body>
 
+
+	<!--     delete book from  the list                  --/>
+
+
+
 	<?php
 	$query = $con->prepare("SELECT * FROM book ORDER BY title");
 	$query->execute();
